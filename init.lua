@@ -35,6 +35,7 @@ end
 
 -- Apply transparency settings initially
 set_transparency()
+vim.opt.clipboard = "unnamedplus"
 
 -- Reapply transparency on buffer enter
 vim.api.nvim_create_autocmd("BufEnter", {
